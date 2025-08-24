@@ -9,33 +9,31 @@
 <body>
     <main>
        <div class="cal">
-         <div class="screen">
-            <p></p> 
-         </div>
+         <input class="screen" type="text" name="" id="">
         <div class="nums">
             <div class="first">
-                <div class="Divs" id="seven">7</div>
-                <div class="Divs" id="eight">8</div>
-                <div class="Divs" id="nine">9</div>
-                <div class="Divs" id="devide">/</div>
+                <div onclick="appendToDisplay('7')" class="Divs" id="seven">7</div>
+                <div onclick="appendToDisplay('8')" class="Divs" id="eight">8</div>
+                <div onclick="appendToDisplay('9')" class="Divs" id="nine">9</div>
+                <div onclick="appendToDisplay('/')" class="Divs" id="devide" class="op">/</div>
             </div>
             <div class="second">
-                <div class="Divs" id="four">4</div>
-                <div class="Divs" id="five">5</div>
-                <div class="Divs" id="six">6</div>
-                <div class="Divs" id="mltps">x</div>
+                <div onclick="appendToDisplay('5')" class="Divs" id="five">5</div>
+                <div onclick="appendToDisplay('6')" class="Divs" id="six">6</div>
+                <div onclick="appendToDisplay('4')" class="Divs" id="four">4</div>
+                <div onclick="appendToDisplay('*')" class="Divs" id="mltps" class="op">x</div>
             </div>
             <div class="third">
-                <div class="Divs" id="one">1</div>
-                <div class="Divs" id="two">2</div>
-                <div class="Divs" id="three">3</div>
-                <div class="Divs" id="sub">-</div>
+                <div onclick="appendToDisplay('1')" class="Divs" id="one">1</div>
+                <div onclick="appendToDisplay('2')" class="Divs" id="two">2</div>
+                <div onclick="appendToDisplay('3')" class="Divs" id="three">3</div>
+                <div onclick="appendToDisplay('-')" class="Divs" id="sub" class="op">-</div>
             </div>
             <div class="forth">
-                <div class="Divs" id="zero">0</div>
-                <div class="Divs" id="add">+</div>
-                <div class="Divs" id="clear">C</div>
-                <div class="Divs" id="answ">=</div>
+                <div onclick="appendToDisplay('0')" class="Divs" id="zero">0</div>
+                <div onclick="appendToDisplay('+')" class="Divs" id="add" class="op">+</div>
+                <div onclick="clearDisplay('C')" class="Divs" id="clear" class="op">C</div>
+                <div onclick="calculate('=')" class="Divs" id="answ">=</div>
                 </div>
             </div>
         </div>
