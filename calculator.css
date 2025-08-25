@@ -24,6 +24,8 @@ main .screen {
   width: 210px;
   border-radius: 10px;
   background-color: green;
+  color: white;
+  font-size: 35px;
 }
 main .nums {
   display: flex;
@@ -53,7 +55,10 @@ main .nums .forth {
 }
 
 #answ {
-  background-color: orange;
+  background-color: orangered;
+}
+#answ:hover {
+  background-color: rgb(196, 54, 3);
 }
 
 .Divs {
@@ -66,4 +71,5 @@ main .nums .forth {
 }
 .Divs:hover {
   transform: scale(1.1);
+  background-color: rgb(190, 188, 188);
 }/*# sourceMappingURL=calculator.css.map */
